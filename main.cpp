@@ -7,6 +7,9 @@ sf::RenderWindow window(sf::VideoMode(Width, Hight), "PhysicEngine");
 
 int main(){
 
+
+
+
     sf::Event event;
     while (window.isOpen()){
 
@@ -21,4 +24,5 @@ int main(){
 
         window.display();
     }
+    return 0;
 }
